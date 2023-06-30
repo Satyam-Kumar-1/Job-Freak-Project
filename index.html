@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="left-panel">
+        <ul>
+          <li ><a href="#home" class="active" onclick="showContent('home')" >Home</a></li>
+          <li><a href="#contact" onclick="showContent('contact')">Contact</a></li>
+          <li><a href="#information" onclick="showContent('information')">Information</a></li>
+          <li><a href="#guide" onclick="showContent('guide')">Guide</a></li>
+        </ul>
+      </div>
+      <div id="content">
+        <p id="home" >
+          Welcome to the Home page!
+        </p>
+        <p id="contact" class="hidden">
+            
+          Contact information: Phone: +91-1234567890, Email: abc@gmail.com
+        </p>
+        <p id="information" class="hidden">
+          This is some information about the Job Freak.
+        </p>
+        <p id="guide" class="hidden">
+          Here's a guide on how to use the Job freak website.
+        </p>
+      </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
